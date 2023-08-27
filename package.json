@@ -2,6 +2,8 @@
   "name": "node-ts-template",
   "version": "1.0.0",
   "description": "",
+  "main": "build/src/main.js",
+  "types": "build/src/main.d.ts",
   "type": "module",
   "scripts": {
     "start": "node build/src/main.js",
