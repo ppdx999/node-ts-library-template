@@ -19,5 +19,5 @@
     "removeComments": true,
     "declaration": true
   },
-  "include": ["src/**/*"]
+  "include": ["lib/**/*"]
 }

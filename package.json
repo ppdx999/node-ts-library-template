@@ -1,10 +1,10 @@
 {
-  "name": "node-ts-template",
+  "name": "lib-name",
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "scripts": {
-    "start": "node build/src/main.js",
+    "start": "node build/lib/main.js",
     "clean": "rimraf coverage build tmp",
     "prebuild": "npm run lint",
     "build": "npm run clean && tsc -d -p tsconfig.json",
@@ -12,6 +12,13 @@
     "lint": "eslint . --ext .ts --ext .mts",
     "test": "jest --coverage",
     "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppdx999/lib-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ppdx999/lib-name/issues"
   },
   "keywords": [],
   "author": "ppdx999 <ppdx999@gmail.com>",

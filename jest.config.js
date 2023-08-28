@@ -10,9 +10,9 @@ export default {
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(m)?ts$',
   coverageDirectory: 'coverage',
   collectCoverageFrom: [
-    'src/**/*.ts',
-    'src/**/*.mts',
-    '!src/**/*.d.ts',
-    '!src/**/*.d.mts',
+    'lib/**/*.ts',
+    'lib/**/*.mts',
+    '!lib/**/*.d.ts',
+    '!lib/**/*.d.mts',
   ],
 };
